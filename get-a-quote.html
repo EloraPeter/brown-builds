@@ -1,0 +1,323 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Get a Quote - Brown Builds</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+</head>
+
+<body>
+    <header>
+        <div id="get-a-quote-hero">
+            <nav>
+                <img src="images/logo2-removebg-preview.png" alt="Brown Builds Logo" />
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="navlinks">
+                    <ul>
+                        <li class="mainmenu"><a href="index.html">Home</a></li>
+                        <!-- Our Company Dropdown -->
+                        <li class="dropdown mainmenu">
+                            <a href="our company.html" class="dropdown-toggle">Our Company<i
+                                    class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="our company.html">About Us</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="environ-commit.html">Environmental Commitment</a></li>
+                            </ul>
+                        </li>
+                        <!-- Services Dropdown -->
+                        <li class="dropdown mainmenu">
+                            <a href="our services.html" class="dropdown-toggle">Services<i
+                                    class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="civil engineering.html">Civil Engineering</a></li>
+                                <li><a href="project management.html">Project Management</a></li>
+                                <li><a href="renovation.html">Renovations</a></li>
+                                <li><a href="architecture.html">Architecture</a></li>
+                                <li><a href="interior design.html">Interior Design</a></li>
+                                <li><a href="landscaping.html">Landscaping</a></li>
+                                <li><a href="material testing.html">Material Testing</a></li>
+                                <li><a href="procurement.html">Procurement</a></li>
+                                <li><a href="consultation.html">Consultation</a></li>
+                            </ul>
+                        </li>
+                        <!-- Projects Dropdown -->
+                        <li class="dropdown mainmenu">
+                            <a href="#" class="dropdown-toggle">Projects<i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="residential.html">Residential</a></li>
+                                <li><a href="commercial.html">Commercial</a></li>
+                                <li><a href="infrastructure.html">Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="mainmenu"><a href="contact.html">Contact</a></li>
+                        <li class="mainmenu"><a href="get-a-quote.html" class="cta-btn">Get a Quote</a></li>
+                    </ul>
+                </div>
+                
+            </nav>
+            <div class="quote-title">
+                <h1>Get a <span>Quote</span></h1>
+                <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Nulla facilisi. Donec vel neque at mauris
+                    pellentesque pharetra. Donec auctor, mauris ac dignissim dignissim, velit ipsum gravida velit, vel
+                    consectetur tu
+                </p>
+            </div>
+        </div>
+    </header>
+    <main>
+        <section id="get-a-quote">
+            <div class="quote-form-container">
+                <form class="quote-form" action="#" method="POST">
+                    <!-- Basic Client Information -->
+                    <div class="form-section basic">
+                        <h2><span> Basic </span>Information</h2>
+                        <!-- Full Name -->
+                        <div class="form-item">
+                            <input type="text" id="full-name" name="full_name" placeholder="" required>
+                            <label for="full-name">Full Name</label>
+                        </div>
+                        <!-- Email Address -->
+                        <div class="form-item">
+                            <input type="email" id="email" name="email" placeholder="" required>
+                            <label for="email">Email Address</label>
+                        </div>
+                        <!-- Phone Number -->
+                        <div class="form-item">
+                            <input type="tel" id="phone" name="phone" placeholder="">
+                            <label for="phone">Phone Number (Optional)</label>
+                        </div>
+                    </div>
+                    <!-- Project-Specific Information -->
+                    <div class="form-section project">
+                        <h2>Project <span> Details</span></h2>
+
+                        <!-- Type of Service -->
+                        <div class="form-item">
+                            <select id="service" name="service" required>
+                                <option value="">Select Service</option>
+                                <option value="consultation">Consultation</option>
+                                <option value="civil_engineering">Civil Engineering</option>
+                                <option value="project_management">Project Management</option>
+                                <option value="architecture">Architecture</option>
+                                <option value="renovation">Renovation</option>
+                                <option value="landscaping">Landscaping</option>
+                            </select>
+                            <label for="service">Which Service Are You Interested In?</label>
+                        </div>
+
+                        <!-- Project Description -->
+                        <div class="form-item">
+                            <textarea id="project-description" name="project_description" rows="4" placeholder="" required></textarea>
+                            <label for="project-description">Project Description</label>
+                        </div>
+
+                        <!-- Project Location -->
+                        <div class="form-item">
+                            <input type="text" id="location" name="location" placeholder="" required>
+                            <label for="location">Project Location</label>
+                        </div>
+
+                        <!-- Project Size/Scope -->
+                        <div class="form-item">
+                            <select id="scope" name="scope" required>
+                                <option value="">Select Scope</option>
+                                <option value="residential">Residential</option>
+                                <option value="commercial">Commercial</option>
+                                <option value="renovation">Renovation</option>
+                                <option value="new_construction">New Construction</option>
+                            </select>
+                            <label for="scope">Project Size/Scope</label>
+                        </div>
+
+                        <!-- Budget Range -->
+                        <div class="form-item">
+                            <select id="budget" name="budget" required>
+                                <option value="">Select Budget Range</option>
+                                <option value="below_1m">Below 1 Million</option>
+                                <option value="1m_5m">1 Million – 5 Million</option>
+                                <option value="5m_10m">5 Million – 10 Million</option>
+                                <option value="above_10m">Above 10 Million</option>
+                            </select>
+                            <label for="budget">Estimated Budget</label>
+                        </div>
+
+                        <!-- Preferred Timeline -->
+                        <div class="form-item">
+                            <input type="text" id="timeline" name="timeline" placeholder="" required>
+                            <label for="timeline">Preferred Timeline</label>
+                        </div>
+
+                        <!-- Materials/Design Preferences -->
+                        <div class="form-item">
+                            <textarea id="preferences" name="preferences" rows="3" placeholder=""></textarea>
+                            <label for="preferences">Any Specific Design or Material Preferences?</label>
+                        </div>
+
+                        <!-- Additional Features -->
+                        <div class="form-item">
+                            <textarea id="additional-features" name="additional_features" rows="3" placeholder=""></textarea>
+                            <label for="additional-features">Additional Features or Services?</label>
+                        </div>
+                    </div>
+                    <!-- Optional Questions -->
+                    <div class="form-section optional">
+                        <h2><span>Optional </span>Questions</h2>
+
+                        <!-- Project Start Date -->
+                        <div class="form-item">
+                            <input type="date" id="start-date" name="start_date" placeholder="">
+                            <label for="start-date">Preferred Start Date</label>
+                        </div>
+
+                        <!-- Has a Plan Been Created? -->
+                        <div class="form-item">
+                            <select id="plans" name="plans">
+                                <option value="">Select Answer</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                            <label for="plans">Do You Already Have Architectural or Engineering Plans?</label>
+                        </div>
+
+                        <!-- Is Permitting Required? -->
+                        <div class="form-item">
+                            <select id="permit" name="permit">
+                                <option value="">Select Answer</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                            <label for="permit">Do You Need Help with Permitting?</label>
+                        </div>
+
+                        <!-- Prior Experience with Contractors -->
+                        <div class="form-item">
+                            <select id="experience" name="experience">
+                                <option value="">Select Answer</option>
+                                <option value="yes">Yes</option>
+                                <option value="no">No</option>
+                            </select>
+                            <label for="experience">Have You Worked with Contractors Before?</label>
+                        </div>
+
+                        <!-- How Did You Hear About Us? -->
+                        <div class="form-item">
+                            <input type="text" id="referral" name="referral" placeholder="" required>
+                            <label for="referral">How Did You Hear About Us?</label>
+                        </div>
+                    </div>
+                    <!-- Additional Information -->
+                    <div class="form-section additional">
+                        <h2>Additional <span> Information</span></h2>
+
+                        <!-- Comments/Questions -->
+                        <div class="form-item">
+                            <textarea id="comments" name="comments" rows="4" placeholder=""></textarea>
+                            <label for="comments">Any Additional Comments or Questions?</label>
+                        </div>
+
+                        <!-- File Upload -->
+                        <div class="form-item">
+                            <input type="file" id="file-upload" name="file_upload" accept=".pdf, .jpg, .png, .docx">
+                            <label for="file-upload">Upload Project Plans or Images (Optional)</label>
+                        </div>
+                    </div>
+                    <!-- Submit Button -->
+                    <button class="form-btn" type="submit">Get a Quote</button>
+                </form>
+            </div>
+        </section>
+    </main>
+    <a href="test/test.html">test</a>
+
+    <footer>
+        <div class="foot-container">
+            <div class="our-company">
+                <h2>About Us</h2>
+                <p>
+                    Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                    Voluptatem, magnam aspernatur nemo repellendus quas. Rerum,
+                    veniamminus. Lorem ipsum dolor sit amet consectetur adipisicing
+                    elit. Exercitationem, expedita Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iste magnam
+                    labore ipsa facere laboriosam delectus corporis quod nisi nam? Id voluptatem quos, totam veritatis
+                    dignissimos impedit in. Ullam, officia esse? Lorem ipsum dolor, sit amet consectetur adipisicing
+                    elit. Reiciendis eum similique, fugit libero enim corrupti amet unde, sequi veniam, est cum nostrum
+                    dignissimos error quisquam qui. Hic facere deleniti ullam. ea voluptas deleniti.
+                </p>
+            </div>
+            <div class="contact-info">
+                <p><i class="fas fa-map-marker-alt"></i> 123 Main St, Anytown, USA</p>
+                <p><i class="fas fa-phone"></i> (123) 456-7890</p>
+                <p>
+                    <i class="fas fa-envelope"></i>
+                    <a href="mailto:info@example.com">info@example.com</a>
+                </p>
+            </div>
+            <div class="quick-links">
+                <h2>Quick Links</h2>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="our company.html">Our Company</a></li>
+                    <li><a href="our services.html">Services</a></li>
+                    <li><a href="portfolio.html">Portfolio</a></li>
+                    <li><a href="get a quote.html">Get a Quote</a></li>
+                    <li><a href="faq.html">FAQ</a></li>
+                </ul>
+            </div>
+            <div class="socials">
+                <h2>Follow Us</h2>
+                <ul>
+                    <li>
+                        <a href="#"><i class="fab fa-facebook"></i>Facebook</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-twitter"></i>Twitter</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-instagram"></i>Instagram</a>
+                    </li>
+                    <li>
+                        <a href="#"><i class="fab fa-linkedin"></i>Linkedin</a>
+                    </li>
+                </ul>
+            </div>
+        </div>
+        <div id="copyright " class="copyright">
+            <p>
+                &copy; <a href="index.html">2024 Brown Builds Ent</a>. All rights
+                reserved.
+            </p>
+            <div class="designer">Designed by <a href="#">❤️ ELORA</a>.</div>
+        </div>
+    </footer>
+
+    <div id="cookiePopup" class="hide">
+        <i class="fas fa-cookie-bite"></i>
+        <p>
+            Our website uses cookies to enhance your browsing experience and provide relevant information. By continuing
+            to
+            use our website, you agree to our
+            <a href="privacy-policy.html">Privacy Policy</a>,
+            <a href="terms-of-service.html">Terms of Service</a>, and
+            <a href="cookie-policy.html">Cookie Policy</a>.
+        </p>
+        <div class="button-group">
+            <button id="acceptCookie">Accept</button>
+            <button id="declineCookie">Decline</button>
+            <button id="settingsCookie">Cookie Settings</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+
+</html>
