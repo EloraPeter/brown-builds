@@ -7,6 +7,8 @@
     <title>Consultation - Brown Builds</title>
     <link rel="canonical" href="index.html" />
     <link rel="stylesheet" href="style.css" />
+    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
@@ -73,12 +75,15 @@
             </div>
         </div>
     </header>
+
     <main id="consultation">
+        
+
         <div class="consultation-overview">
             <h2>Overview</h2>
-            <p>At Brown Builds, we offer expert consultation services to guide you through every stage of your project.
-                Whether you're planning a new construction, renovation, or infrastructure project, our experienced team
-                provides valuable insights and professional guidance to ensure success.</p>
+            <p>At Brown Builds, our consultation services guide you through every stage of your project. From new
+                constructions to renovations and infrastructure developments, our experienced team delivers actionable
+                insights to ensure your project’s success.</p>
         </div>
 
         <div class="consultation-services">
@@ -86,38 +91,33 @@
             <div class="consultation-services-list">
                 <article class="consultation-service">
                     <h3>Project Planning</h3>
-                    <p>We assist in comprehensive project planning, helping you outline goals, budgets, timelines, and
-                        strategies to ensure your project starts on the right foot.</p>
+                    <p>Comprehensive project planning to define goals, budgets, timelines, and strategies, ensuring a
+                        strong foundation for success.</p>
                 </article>
-
                 <article class="consultation-service">
                     <h3>Feasibility Studies</h3>
-                    <p>Our team conducts in-depth feasibility studies to assess project viability, considering
-                        technical, financial, and environmental factors to ensure informed decision-making.</p>
+                    <p>In-depth studies assessing technical, financial, and environmental factors to support informed
+                        decision-making.</p>
                 </article>
-
                 <article class="consultation-service">
                     <h3>Site Evaluation</h3>
-                    <p>We provide thorough site evaluations, offering insights on land use, environmental
-                        considerations, zoning regulations, and site potential to maximize your project’s success.</p>
+                    <p>Thorough evaluations of land use, environmental factors, zoning regulations, and site potential
+                        to optimize project outcomes.</p>
                 </article>
-
                 <article class="consultation-service">
                     <h3>Cost Estimation</h3>
-                    <p>Accurate cost estimation services ensure that your project remains within budget. We provide
-                        detailed cost breakdowns, covering materials, labor, and contingencies.</p>
+                    <p>Detailed cost breakdowns covering materials, labor, and contingencies to keep your project within
+                        budget.</p>
                 </article>
-
                 <article class="consultation-service">
                     <h3>Risk Management</h3>
-                    <p>We help identify potential risks and develop effective risk management strategies, ensuring that
-                        your project is prepared to handle unforeseen challenges.</p>
+                    <p>Proactive identification of risks and tailored strategies to mitigate challenges and ensure
+                        project resilience.</p>
                 </article>
-
                 <article class="consultation-service">
                     <h3>Regulatory Compliance</h3>
-                    <p>Our consultants ensure your project adheres to all local, national, and international
-                        regulations, including building codes, safety standards, and environmental laws.</p>
+                    <p>Expert guidance to ensure adherence to local, national, and international regulations, including
+                        building codes and environmental laws.</p>
                 </article>
             </div>
         </div>
@@ -125,17 +125,17 @@
         <div class="consultation-benefits">
             <h2>Why Choose Our Consultation Services?</h2>
             <ul>
-                <li>Experienced team with industry expertise</li>
-                <li>Comprehensive project support from start to finish</li>
-                <li>Tailored advice to meet your specific needs</li>
-                <li>Proven strategies for cost control and risk management</li>
+                <li>Experienced team with deep industry expertise</li>
+                <li>End-to-end support tailored to your project</li>
+                <li>Customized advice to meet your unique needs</li>
+                <li>Proven strategies for cost control and risk mitigation</li>
             </ul>
         </div>
 
         <div class="consultation-contact">
             <h2>Get in Touch for a Consultation</h2>
-            <p>Our consultation team is ready to offer expert advice on your next project. Contact us today to schedule
-                a consultation and start planning for success.</p>
+            <p>Ready to start your project with expert guidance? Contact our team to schedule a consultation and plan
+                for success.</p>
             <a href="contact.html" class="cta-btn">Contact Us</a>
         </div>
     </main>
@@ -175,6 +175,9 @@
                     <li><a href="portfolio.html">Portfolio</a></li>
                     <li><a href="get a quote.html">Get a Quote</a></li>
                     <li><a href="faq.html">FAQ</a></li>
+                    <li><a href="privacy policy.html">Privacy Policy</a></li>
+                    <li><a href="cookie policy.html">Cookie Policy</a></li>
+                    <li><a href="terms of service.html">Terms of Service</a></li>
                 </ul>
             </div>
             <div class="socials">
@@ -204,21 +207,62 @@
         </div>
     </footer>
 
-    <div id="cookiePopup" class="hide">
-        <i class="fas fa-cookie-bite"></i>
-        <p>
-            Our website uses cookies to enhance your browsing experience and provide
-            relevant information. By continuing to use our website, you agree to our
-            <a href="privacy-policy.html">Privacy Policy</a>,
-            <a href="terms-of-service.html">Terms of Service</a>, and
-            <a href="cookie-policy.html">Cookie Policy</a>.
-        </p>
-        <div class="button-group">
-            <button id="acceptCookie">Accept</button>
-            <button id="declineCookie">Decline</button>
-            <button id="settingsCookie">Cookie Settings</button>
+    <div id="cookiePopup" class="cookie-popup hide" role="dialog" aria-labelledby="cookiePopupTitle"
+        aria-describedby="cookiePopupDesc">
+        <div class="cookie-content">
+            <button class="cookie-close" aria-label="Close cookie popup" onclick="closeCookiePopup()">
+                <i class="fas fa-times"></i>
+            </button>
+            <i class="fas fa-cookie-bite cookie-icon" aria-hidden="true"></i>
+            <h2 id="cookiePopupTitle">We Value Your Privacy</h2>
+            <p id="cookiePopupDesc">
+                We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. By
+                continuing, you agree to our
+                <a href="privacy-policy.html" aria-label="Read our Privacy Policy">Privacy Policy</a>,
+                <a href="terms-of-service.html" aria-label="Read our Terms of Service">Terms of Service</a>, and
+                <a href="cookie-policy.html" aria-label="Read our Cookie Policy">Cookie Policy</a>.
+            </p>
+            <div class="cookie-button-group">
+                <button id="acceptCookie" class="cookie-btn cookie-btn--primary" aria-label="Accept all cookies">Accept
+                    All</button>
+                <button id="declineCookie" class="cookie-btn cookie-btn--secondary"
+                    aria-label="Decline non-essential cookies">Decline Non-Essential</button>
+                <button id="settingsCookie" class="cookie-btn cookie-btn--settings"
+                    aria-label="Customize cookie settings" onclick="openCookieSettings()">Customize</button>
+            </div>
+        </div>
+        <div id="cookieSettingsModal" class="cookie-settings-modal hide" role="dialog"
+            aria-labelledby="cookieSettingsTitle">
+            <div class="cookie-settings-content">
+                <h2 id="cookieSettingsTitle">Cookie Settings</h2>
+                <form id="cookieSettingsForm">
+                    <div class="cookie-option">
+                        <input type="checkbox" id="essentialCookies" checked disabled
+                            aria-label="Essential cookies (always required)">
+                        <label for="essentialCookies">Essential Cookies (Required)</label>
+                        <p>These cookies are necessary for the website to function and cannot be disabled.</p>
+                    </div>
+                    <div class="cookie-option">
+                        <input type="checkbox" id="analyticsCookies" aria-label="Analytics cookies">
+                        <label for="analyticsCookies">Analytics Cookies</label>
+                        <p>These cookies help us understand how visitors interact with our website.</p>
+                    </div>
+                    <div class="cookie-option">
+                        <input type="checkbox" id="marketingCookies" aria-label="Marketing cookies">
+                        <label for="marketingCookies">Marketing Cookies</label>
+                        <p>These cookies are used to personalize ads and content based on your interests.</p>
+                    </div>
+                    <div class="cookie-settings-buttons">
+                        <button type="button" class="cookie-btn cookie-btn--primary" onclick="saveCookieSettings()">Save
+                            Settings</button>
+                        <button type="button" class="cookie-btn cookie-btn--secondary"
+                            onclick="closeCookieSettings()">Cancel</button>
+                    </div>
+                </form>
+            </div>
         </div>
     </div>
+
 
     <script src="script.js"></script>
 </body>

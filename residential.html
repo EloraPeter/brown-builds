@@ -1,71 +1,140 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Project Management - Brown Builds</title>
-    <link rel="canonical" href="index.html" />
+    <link rel="canonical" href="index.html" />    <link rel="shortcut icon" href="images/favicon.ico" type="image/x-icon">
+
     <link rel="stylesheet" href="style.css" />
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" />
     <link rel="stylesheet"
         href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
 
 </head>
+
 <body>
     <header>
-        <nav>
-            <img src="images/logo2-removebg-preview.png" alt="Brown Builds Logo" />
-            <div class="menu-toggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
+        <div id="residential-hero">
+            <nav>
+                <img src="images/logo2-removebg-preview.png" alt="Brown Builds Logo" />
+                <div class="menu-toggle">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+                <div class="navlinks">
+                    <ul>
+                        <li class="mainmenu"><a href="index.html">Home</a></li>
+                        <!-- Our Company Dropdown -->
+                        <li class="dropdown mainmenu">
+                            <a href="our company.html" class="dropdown-toggle">Our Company<i
+                                    class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="our company.html">About Us</a></li>
+                                <li><a href="careers.html">Careers</a></li>
+                                <li><a href="environ-commit.html">Environmental Commitment</a></li>
+                            </ul>
+                        </li>
+                        <!-- Services Dropdown -->
+                        <li class="dropdown mainmenu">
+                            <a href="our services.html" class="dropdown-toggle">Services<i
+                                    class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="civil engineering.html">Civil Engineering</a></li>
+                                <li><a href="project management.html">Project Management</a></li>
+                                <li><a href="renovation.html">Renovations</a></li>
+                                <li><a href="architecture.html">Architecture</a></li>
+                                <li><a href="interior design.html">Interior Design</a></li>
+                                <li><a href="landscaping.html">Landscaping</a></li>
+                                <li><a href="material testing.html">Material Testing</a></li>
+                                <li><a href="procurement.html">Procurement</a></li>
+                                <li><a href="consultation.html">Consultation</a></li>
+                            </ul>
+                        </li>
+                        <!-- Projects Dropdown -->
+                        <li class="dropdown mainmenu">
+                            <a href="#" class="dropdown-toggle">Projects<i class="fa-solid fa-angle-down"></i></a>
+                            <ul class="dropdown-menu">
+                                <li><a href="residential.html">Residential</a></li>
+                                <li><a href="commercial.html">Commercial</a></li>
+                                <li><a href="infrastructure.html">Infrastructure</a></li>
+                            </ul>
+                        </li>
+                        <li class="mainmenu"><a href="contact.html">Contact</a></li>
+                        <li class="mainmenu"><a href="get-a-quote.html" class="cta-btn">Get a Quote</a></li>
+                    </ul>
+                </div>
+
+            </nav>
+            <div class="residential-title">
+                <h1>Residential Projects</h1>
+                <p>Building high-quality, sustainable homes that last a lifetime.</p>
             </div>
-            <div class="navlinks">
-                <ul>
-                    <li class="mainmenu"><a href="index.html">Home</a></li>
-                    <!-- Our Company Dropdown -->
-                    <li class="dropdown mainmenu">
-                        <a href="our company.html" class="dropdown-toggle">Our Company<i
-                                class="fa-solid fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="our company.html">About Us</a></li>
-                            <li><a href="careers.html">Careers</a></li>
-                            <li><a href="environ-commit.html">Environmental Commitment</a></li>
-                        </ul>
-                    </li>
-                    <!-- Services Dropdown -->
-                    <li class="dropdown mainmenu">
-                        <a href="our services.html" class="dropdown-toggle">Services<i
-                                class="fa-solid fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="civil engineering.html">Civil Engineering</a></li>
-                            <li><a href="project management.html">Project Management</a></li>
-                            <li><a href="renovation.html">Renovations</a></li>
-                            <li><a href="architecture.html">Architecture</a></li>
-                            <li><a href="interior design.html">Interior Design</a></li>
-                            <li><a href="landscaping.html">Landscaping</a></li>
-                            <li><a href="material testing.html">Material Testing</a></li>
-                            <li><a href="procurement.html">Procurement</a></li>
-                            <li><a href="consultation.html">Consultation</a></li>
-                        </ul>
-                    </li>
-                    <!-- Projects Dropdown -->
-                    <li class="dropdown mainmenu">
-                        <a href="#" class="dropdown-toggle">Projects<i class="fa-solid fa-angle-down"></i></a>
-                        <ul class="dropdown-menu">
-                            <li><a href="residential.html">Residential</a></li>
-                            <li><a href="commercial.html">Commercial</a></li>
-                            <li><a href="infrastructure.html">Infrastructure</a></li>
-                        </ul>
-                    </li>
-                    <li class="mainmenu"><a href="contact.html">Contact</a></li>
-                    <li class="mainmenu"><a href="get-a-quote.html" class="cta-btn">Get a Quote</a></li>
-                </ul>
-            </div>
-            
-        </nav>
+        </div>
     </header>
-    
+    <main id="residential">
+
+        <section class="residential-content">
+            <h2>Our Residential Projects</h2>
+            <p>Explore our portfolio of expertly crafted residential homes, designed with quality, comfort, and
+                sustainability in mind.</p>
+        </section>
+
+        <section class="residential-grid">
+            <div class="residential-item">
+                <img src="images/funiture and decor.jpg" alt="Residential Project 1">
+                <h3>Modern Family Home</h3>
+                <p>A stylish and functional home designed for modern family living, featuring energy-efficient designs
+                    and smart home technology.</p>
+            </div>
+            <div class="residential-item">
+                <img src="images/interior-cta.jpg" alt="Residential Project 2">
+                <h3>Luxury Villa</h3>
+                <p>An exclusive villa with elegant architecture, spacious interiors, and premium materials, offering the
+                    ultimate comfort and sophistication.</p>
+            </div>
+            <div class="residential-item">
+                <img src="images/interior-hero.jpg" alt="Residential Project 3">
+                <h3>Urban Apartment Complex</h3>
+                <p>A contemporary high-rise apartment complex that blends urban aesthetics with green spaces, ensuring
+                    both comfort and convenience.</p>
+            </div>
+            <div class="residential-item">
+                <img src="images/luxery-livingroom.jpg" alt="Residential Project 4">
+                <h3>Eco-Friendly Homes</h3>
+                <p>Designed with sustainability in mind, our eco-friendly homes incorporate renewable energy solutions
+                    and sustainable building materials.</p>
+            </div>
+            <div class="residential-item">
+                <img src="images/residential 3 projects.jpg" alt="Residential Project 5">
+                <h3>Suburban Townhouses</h3>
+                <p>A perfect blend of affordability and comfort, our townhouses provide spacious living areas in
+                    well-planned suburban communities.</p>
+            </div>
+        </section>
+
+        <section class="residential-testimonials">
+            <h2>What Our Clients Say</h2>
+            <div class="testimonial">
+                <p>“Brown Builds transformed our vision into reality. Our home is not only beautiful but also
+                    energy-efficient!”</p>
+                <h4>- Jane & Michael D.</h4>
+            </div>
+            <div class="testimonial">
+                <p>“The attention to detail and quality craftsmanship in our townhouse exceeded our expectations.”</p>
+                <h4>- Samuel R.</h4>
+            </div>
+        </section>
+
+        <section class="cta-section">
+            <h2>Start Your Dream Home with Brown Builds</h2>
+            <p>Let’s bring your vision to life. Contact us today to begin your residential project.</p>
+            <a href="contact.html" class="cta-btn">Get in Touch</a>
+        </section>
+    </main>
+
     <footer>
         <div class="foot-container">
             <div class="our-company">
@@ -129,23 +198,64 @@
             <div class="designer">Designed by <a href="#">❤️ ELORA</a>.</div>
         </div>
     </footer>
-    
-    <div id="cookiePopup" class="hide">
-        <i class="fas fa-cookie-bite"></i>
-        <p>
-            Our website uses cookies to enhance your browsing experience and provide
-            relevant information. By continuing to use our website, you agree to our
-            <a href="privacy-policy.html">Privacy Policy</a>,
-            <a href="terms-of-service.html">Terms of Service</a>, and
-            <a href="cookie-policy.html">Cookie Policy</a>.
-        </p>
-        <div class="button-group">
-            <button id="acceptCookie">Accept</button>
-            <button id="declineCookie">Decline</button>
-            <button id="settingsCookie">Cookie Settings</button>
+
+   <div id="cookiePopup" class="cookie-popup hide" role="dialog" aria-labelledby="cookiePopupTitle"
+        aria-describedby="cookiePopupDesc">
+        <div class="cookie-content">
+            <button class="cookie-close" aria-label="Close cookie popup" onclick="closeCookiePopup()">
+                <i class="fas fa-times"></i>
+            </button>
+            <i class="fas fa-cookie-bite cookie-icon" aria-hidden="true"></i>
+            <h2 id="cookiePopupTitle">We Value Your Privacy</h2>
+            <p id="cookiePopupDesc">
+                We use cookies to enhance your browsing experience, analyze site traffic, and personalize content. By
+                continuing, you agree to our
+                <a href="privacy-policy.html" aria-label="Read our Privacy Policy">Privacy Policy</a>,
+                <a href="terms-of-service.html" aria-label="Read our Terms of Service">Terms of Service</a>, and
+                <a href="cookie-policy.html" aria-label="Read our Cookie Policy">Cookie Policy</a>.
+            </p>
+            <div class="cookie-button-group">
+                <button id="acceptCookie" class="cookie-btn cookie-btn--primary" aria-label="Accept all cookies">Accept
+                    All</button>
+                <button id="declineCookie" class="cookie-btn cookie-btn--secondary"
+                    aria-label="Decline non-essential cookies">Decline Non-Essential</button>
+                <button id="settingsCookie" class="cookie-btn cookie-btn--settings"
+                    aria-label="Customize cookie settings" onclick="openCookieSettings()">Customize</button>
+            </div>
         </div>
-    </div> 
+        <div id="cookieSettingsModal" class="cookie-settings-modal hide" role="dialog"
+            aria-labelledby="cookieSettingsTitle">
+            <div class="cookie-settings-content">
+                <h2 id="cookieSettingsTitle">Cookie Settings</h2>
+                <form id="cookieSettingsForm">
+                    <div class="cookie-option">
+                        <input type="checkbox" id="essentialCookies" checked disabled
+                            aria-label="Essential cookies (always required)">
+                        <label for="essentialCookies">Essential Cookies (Required)</label>
+                        <p>These cookies are necessary for the website to function and cannot be disabled.</p>
+                    </div>
+                    <div class="cookie-option">
+                        <input type="checkbox" id="analyticsCookies" aria-label="Analytics cookies">
+                        <label for="analyticsCookies">Analytics Cookies</label>
+                        <p>These cookies help us understand how visitors interact with our website.</p>
+                    </div>
+                    <div class="cookie-option">
+                        <input type="checkbox" id="marketingCookies" aria-label="Marketing cookies">
+                        <label for="marketingCookies">Marketing Cookies</label>
+                        <p>These cookies are used to personalize ads and content based on your interests.</p>
+                    </div>
+                    <div class="cookie-settings-buttons">
+                        <button type="button" class="cookie-btn cookie-btn--primary" onclick="saveCookieSettings()">Save
+                            Settings</button>
+                        <button type="button" class="cookie-btn cookie-btn--secondary"
+                            onclick="closeCookieSettings()">Cancel</button>
+                    </div>
+                </form>
+            </div>
+        </div>
+    </div>
 
     <script src="script.js"></script>
 </body>
+
 </html>
