@@ -18,6 +18,8 @@ build/
 
 # Node modules (if you use npm packages)
 node_modules/
+package-lock.json 
+yarn.lock
 
 # Cache
 .cache/
@@ -29,5 +31,10 @@ yarn-error.log*
 *.tmp
 *.swp
 
+#PostCSS-specific
+
+postcss.config.js.map
+style.input.css
 
 test/
+Document from Elora
