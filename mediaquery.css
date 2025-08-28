@@ -1,0 +1,2685 @@
+/* -----------------------------------------------------media query------------------------------------------------------ */
+/* Ultra-small screens (below 300px, e.g., very old phones or narrow viewports) */
+@media only screen and (max-width: 299px) {
+    header nav {
+        padding: 10px 15px;
+    }
+
+    header nav img {
+        width: 80px;
+    }
+
+    header nav .navlinks {
+        width: 250px;
+    }
+
+    header nav .navlinks ul {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 50px;
+    }
+
+    header nav .navlinks ul li {
+        font-size: 12px;
+        margin: 8px 0;
+    }
+
+    .cta-btn {
+        font-size: 10px;
+        padding: 6px 12px;
+    }
+
+    #myBtn {
+        bottom: 10px;
+        font-size: 12px;
+        height: 30px;
+        right: 15px;
+        width: 30px;
+    }
+
+    .form-btn {
+        margin-left: 80%;
+        width: 80px;
+        height: 80px;
+    }
+
+    .form-btn:hover {
+        width: 180px;
+        font-size: 16px;
+    }
+
+    .form-btn i {
+        font-size: 30px;
+    }
+
+    .form-btn:hover i {
+        font-size: 24px;
+    }
+
+    header #hero .center .middle h1 {
+        font-size: 28px;
+        margin-top: 45%;
+    }
+
+    #history .hist-container .hist-text {
+        margin-left: 5px;
+        width: 90%;
+    }
+
+    #history .hist-container .hist-text h2 {
+        font-size: 18px;
+    }
+
+    #history .hist-container .hist-text p {
+        font-size: 12px;
+    }
+
+    #history .hist-container .hist-link {
+        margin-left: 30%;
+        margin-top: 20%;
+    }
+
+    #architecture .arch-container .arch-text {
+        margin-left: 10%;
+        width: 85%;
+    }
+
+    #architecture .arch-text h2 {
+        font-size: 20px;
+    }
+
+    #architecture .arch-text p {
+        font-size: 12px;
+    }
+
+    #architecture .arch-link {
+        margin-left: 20px;
+        margin-top: 15%;
+    }
+
+    #architecture .arch-link p {
+        font-size: 12px;
+    }
+
+    #architecture .arch-link p span {
+        font-size: 18px;
+    }
+
+    #interior .int-container {
+        height: auto;
+    }
+
+    #interior .int-container .int-text {
+        margin-left: 10px;
+        width: 90%;
+    }
+
+    #interior .int-container .int-text h2 {
+        font-size: 20px;
+    }
+
+    #interior .int-container .int-text h2 span {
+        font-size: 30px;
+    }
+
+    #interior .int-container .int-text p {
+        font-size: 12px;
+    }
+
+    #interior .int-container .int-link {
+        margin-left: 25%;
+        margin-top: 15%;
+    }
+
+    #interior .int-container .int-link p {
+        font-size: 13px;
+    }
+
+    #interior .int-container .int-link p span {
+        font-size: 20px;
+    }
+
+    #landscape .land-container {
+        height: 60vh;
+    }
+
+    #landscape .land-container .land-text {
+        margin-left: 10%;
+        width: 85%;
+    }
+
+    #landscape .land-text h2 {
+        font-size: 20px;
+    }
+
+    #landscape .land-text h2 span {
+        font-size: 32px;
+    }
+
+    #landscape .land-text p {
+        font-size: 12px;
+    }
+
+    #landscape .land-container .land-link {
+        margin-left: 25%;
+        margin-top: 12%;
+    }
+
+    #landscape .land-container .land-link p {
+        font-size: 14px;
+    }
+
+    #landscape .land-container .land-link p span {
+        font-size: 16px;
+    }
+
+    #testimonials {
+        height: auto;
+    }
+
+    #testimonials h2 {
+        font-size: 24px;
+        padding-top: 20px;
+    }
+
+    #testimonials .testimonials-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #testimonials .testimonials-container .testimonial-card {
+        margin: 1rem 0;
+        padding: 5px;
+        width: 100%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-picture {
+        width: 120px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text {
+        width: 50%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text h3 {
+        font-size: 10px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text p {
+        font-size: 10px;
+    }
+
+    #get-quote {
+        height: 45vh;
+    }
+
+    #get-quote h2 {
+        font-size: 60px;
+        padding-top: 80px;
+    }
+
+    #get-quote p {
+        font-size: 16px;
+        padding: 20px 0;
+    }
+
+    #cookiePopup {
+        bottom: 10px;
+        left: 5%;
+        max-width: 95%;
+        padding: 10px;
+        right: 5%;
+    }
+
+    .cookie-content h2 {
+        font-size: 18px;
+    }
+
+    .cookie-btn,
+    .cookie-content p {
+        font-size: 12px;
+    }
+
+    .cookie-btn {
+        padding: 6px 12px;
+    }
+
+    .cookie-icon {
+        font-size: 35px;
+    }
+
+    .cookie-settings-content {
+        padding: 15px;
+    }
+
+    .cookie-settings-content h2 {
+        font-size: 20px;
+    }
+
+    .cookie-option label {
+        font-size: 16px;
+    }
+
+    .cookie-option p {
+        font-size: 12px;
+    }
+
+    .consultation-hero h1 {
+        font-size: clamp(1.8rem, 4vw, 2.5rem);
+    }
+
+    .careers-hero {
+        min-height: 300px;
+        padding: 80px 20px;
+    }
+
+    .careers-hero h1 {
+        font-size: 60px;
+        margin-top: 15%;
+    }
+
+    .careers-title h1 {
+        font-size: 2rem;
+    }
+
+    .careers-title p {
+        font-size: 1rem;
+    }
+
+    .eco-hero h1 {
+        font-size: 60px;
+        padding-top: 8%;
+    }
+
+    .eco-intro {
+        top: 60vh;
+        padding: 30px 20px;
+    }
+
+    .eco-intro h2 {
+        font-size: 24px;
+    }
+
+    .eco-intro p {
+        font-size: 14px;
+        width: 90%;
+    }
+
+    .eco-goals h2 {
+        font-size: 40px;
+        padding: 100px 0 15px;
+    }
+
+    .goal-item,
+    .initiative-item {
+        width: 90%;
+    }
+
+    #residential-hero h1 {
+        font-size: 2rem;
+    }
+
+    .commercial-title h1,
+    .infrastructure-title h1,
+    .apply-title h1,
+    .terms-title h1,
+    .faq-title h1,
+    .hero-content h1 {
+        font-size: 80px;
+    }
+
+    .apply-form-container {
+        width: 90%;
+    }
+
+    .apply-form-container .apply-form {
+        margin-left: 10px;
+    }
+
+    .apply-form-container .form-item input,
+    .apply-form-container .form-item select,
+    .apply-form-container .form-item textarea {
+        width: 100%;
+        padding: 20px;
+    }
+
+    #about-us .about-wrapper h2 {
+        font-size: 30px;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown h2 {
+        font-size: 50px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value h2 {
+        font-size: 35px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon i {
+        font-size: 40px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text h3 {
+        font-size: 16px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text p {
+        font-size: 14px;
+    }
+
+    footer .foot-container {
+        padding: 5px;
+    }
+
+    footer .copyright,
+    footer .foot-container .our-company {
+        font-size: 10px;
+    }
+}
+
+/* Small screens (300px–480px) */
+@media only screen and (min-width: 300px) and (max-width: 480px) {
+    header nav .navlinks {
+        background-color: rgba(0, 0, 0, 0.9);
+        height: 100%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        width: 300px;
+        z-index: 9999;
+    }
+
+    header nav .navlinks.active {
+        transform: translateX(0);
+    }
+
+    header nav .navlinks ul {
+        align-items: center;
+        flex-direction: column;
+        margin-top: 60px;
+        text-align: left;
+    }
+
+    header nav .navlinks ul li {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    header nav .navlinks ul li:hover .dropdown-menu {
+        display: block;
+    }
+
+    header nav .navlinks ul .mainmenu:hover {
+        transform: none;
+    }
+
+    header nav .menu-toggle {
+        cursor: pointer;
+        display: flex !important;
+        flex-direction: column;
+        height: 25px;
+        justify-content: space-between;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        width: 30px;
+        z-index: 10000;
+    }
+
+    .menu-toggle .bar {
+        background-color: var(--white);
+        height: 4px;
+        transition: all 0.4s ease;
+        width: 100%;
+    }
+
+    .menu-toggle.active .bar:first-child {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(10px, -10px);
+    }
+
+    header nav .navlinks ul li .dropdown-menu {
+        background-color: hsla(0, 0%, 100%, 0.1);
+        display: none;
+        padding-left: 20px;
+        position: static;
+        width: 100%;
+    }
+
+    header nav img {
+        width: 100px;
+    }
+
+    .cta-btn {
+        font-size: 11px;
+        padding: 7px 14px;
+    }
+
+    #myBtn {
+        bottom: 12px;
+        font-size: 14px;
+        height: 35px;
+        right: 20px;
+        width: 35px;
+    }
+
+    header #hero .center .middle h1 {
+        font-size: 35px;
+        margin-top: 40%;
+    }
+
+    #history .hist-container .hist-text {
+        margin-left: 10px;
+        width: 75%;
+    }
+
+    #history .hist-container .hist-text h2 {
+        font-size: 22px;
+    }
+
+    #history .hist-container .hist-text p {
+        font-size: 0.8rem;
+    }
+
+    #history .hist-container .hist-link {
+        margin-left: 38%;
+    }
+
+    #architecture .arch-container .arch-text {
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    #architecture .arch-text h2 {
+        font-size: clamp(1.2rem, 4vw, 1.4rem);
+    }
+
+    #architecture .arch-text p {
+        font-size: 0.9rem;
+        padding-bottom: 30px;
+    }
+
+    #architecture .arch-link p {
+        font-size: 0.8rem;
+    }
+
+    #interior .int-container {
+        height: auto;
+    }
+
+    #interior .int-container .int-text {
+        margin-left: 20px;
+        width: 80%;
+    }
+
+    #interior .int-container .int-text h2 {
+        font-size: 22px;
+    }
+
+    #interior .int-container .int-text h2 span {
+        font-size: 32px;
+    }
+
+    #interior .int-container .int-text p {
+        font-size: 13px;
+    }
+
+    #interior .int-container .int-link {
+        margin-left: 32%;
+    }
+
+    #interior .int-container .int-link p {
+        font-size: 13px;
+    }
+
+    #interior .int-container .int-link p span {
+        font-size: 20px;
+    }
+
+    #landscape .land-container {
+        height: 60vh;
+    }
+
+    #landscape .land-container .land-text {
+        margin-left: 20%;
+        width: 80%;
+    }
+
+    #landscape .land-text h2 {
+        font-size: 1.4rem;
+    }
+
+    #landscape .land-text h2 span {
+        font-size: 32px;
+    }
+
+    #landscape .land-text p {
+        font-size: 14px;
+    }
+
+    #landscape .land-container .land-link {
+        margin-top: 10%;
+    }
+
+    #landscape .land-container .land-link p {
+        font-size: 14px;
+    }
+
+    #landscape .land-container .land-link p span {
+        font-size: 16px;
+    }
+
+    #testimonials {
+        height: auto;
+    }
+
+    #testimonials h2 {
+        font-size: 28px;
+        padding-top: 30px;
+    }
+
+    #testimonials .testimonials-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #testimonials .testimonials-container .testimonial-card {
+        height: auto;
+        margin: 2rem 0;
+        padding: 8px;
+        width: 100%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-picture {
+        width: 160px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text {
+        width: 40%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text h3 {
+        font-size: 10px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text p {
+        font-size: 12px;
+    }
+
+    #get-quote {
+        height: 45vh;
+    }
+
+    #get-quote h2 {
+        font-size: 40px;
+        padding-top: 50px;
+    }
+
+    #get-quote p {
+        font-size: 16px;
+        padding: 10px 0;
+    }
+
+    #cookiePopup {
+        bottom: 10px;
+        left: 5%;
+        max-width: 95%;
+        padding: 10px;
+        right: 5%;
+    }
+
+    .cookie-content h2 {
+        font-size: 18px;
+    }
+
+    .cookie-btn,
+    .cookie-content p {
+        font-size: 12px;
+    }
+
+    .cookie-btn {
+        padding: 6px 12px;
+    }
+
+    .cookie-icon {
+        font-size: 35px;
+    }
+
+    .cookie-settings-content {
+        padding: 15px;
+    }
+
+    .cookie-settings-content h2 {
+        font-size: 20px;
+    }
+
+    .cookie-option label {
+        font-size: 16px;
+    }
+
+    .cookie-option p {
+        font-size: 12px;
+    }
+
+    header .comp-hero {
+        height: 60vh;
+    }
+
+    header .comp-title h1 {
+        font-size: 50px;
+    }
+
+    #about-us .about-wrapper {
+        height: auto;
+        padding: 50px 0;
+    }
+
+    #about-us .about-wrapper h2 {
+        font-size: 30px;
+        margin-bottom: 20px;
+    }
+
+    #about-us .about-wrapper .about-container {
+        flex-direction: column;
+        padding: 0 15px;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown {
+        margin-bottom: 30px;
+        padding: 20px;
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown h2 {
+        font-size: 50px;
+        padding-left: 10px;
+        text-align: center;
+        border-left: none;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown p {
+        font-size: 14px;
+        margin-right: 0;
+        padding-top: 10px;
+        text-align: center;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value {
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value h2 {
+        font-size: 35px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item {
+        margin-bottom: 20px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon {
+        max-width: 60px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon i {
+        font-size: 40px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text {
+        margin-left: 10px;
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text h3 {
+        font-size: 16px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text p {
+        font-size: 14px;
+        padding-right: 0;
+    }
+
+    .consultation-hero {
+        height: 50vh;
+    }
+
+    .consultation-hero h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .consultation-benefits,
+    .consultation-contact,
+    .consultation-overview,
+    .consultation-services {
+        margin: 40px auto;
+        width: 95%;
+    }
+
+    .consultation-services-list {
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+
+    .consultation-service {
+        padding: 1.5rem;
+    }
+
+    .careers-hero {
+        min-height: 300px;
+        padding: 80px 20px;
+    }
+
+    .careers-title h1 {
+        font-size: 2rem;
+    }
+
+    .careers-title p {
+        font-size: 1rem;
+    }
+
+    .careers-contact h2,
+    .careers-container h2,
+    .testimonials h2 {
+        font-size: 2rem;
+    }
+
+    .intro-visuals {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-stats {
+        align-items: center;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .job-filter select {
+        width: 100%;
+    }
+
+    .testimonials-container {
+        grid-template-columns: 1fr;
+    }
+
+    .benefit-item,
+    .job-opening,
+    .value-item {
+        padding: 1rem;
+    }
+
+    .eco-contact,
+    .eco-partnerships {
+        margin: 40px auto;
+        padding: 20px 0;
+        width: 95%;
+    }
+
+    .eco-contact h2,
+    .eco-partnerships h2 {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+    }
+
+    .eco-contact p,
+    .eco-partnerships p {
+        font-size: clamp(0.9rem, 1.8vw, 1rem);
+    }
+
+    #residential-hero h1 {
+        font-size: 2rem;
+    }
+
+    .residential-content h2 {
+        font-size: 2rem;
+    }
+
+    .residential-content p {
+        font-size: 1rem;
+    }
+
+    .policy-hero {
+        min-height: 300px;
+        padding: 80px 20px;
+    }
+
+    .policy-content {
+        padding: 0 15px;
+    }
+
+    .policy-content h2 {
+        font-size: 2rem;
+    }
+
+    .cookie-types,
+    .data-types,
+    .rights-list {
+        grid-template-columns: 1fr;
+    }
+
+    .cookie-type,
+    .data-type,
+    .right-item {
+        padding: 1rem;
+    }
+
+    .commercial-title h1,
+    .infrastructure-title h1,
+    .apply-title h1,
+    .terms-title h1,
+    .faq-title h1,
+    .hero-content h1 {
+        font-size: 80px;
+    }
+
+    .apply-form-container {
+        width: 90%;
+    }
+
+    .apply-form-container .apply-form {
+        margin-left: 10px;
+    }
+
+    .apply-form-container .form-item input,
+    .apply-form-container .form-item select,
+    .apply-form-container .form-item textarea {
+        width: 100%;
+        padding: 20px;
+    }
+
+    footer .foot-container {
+        padding: 5px;
+    }
+
+    footer .copyright,
+    footer .foot-container .our-company {
+        font-size: 10px;
+    }
+
+    #our-history .history-wrapper .timeline .timeline-item {
+        min-width: 90vw;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+}
+
+/* Small to medium screens (481px–575px) */
+@media only screen and (min-width: 481px) and (max-width: 575px) {
+    header nav img {
+        width: 110px;
+    }
+
+    header nav .navlinks ul {
+        margin-top: 50px;
+    }
+
+    .cta-btn {
+        font-size: 12px;
+        padding: 8px 16px;
+    }
+
+    #myBtn {
+        bottom: 15px;
+        font-size: 16px;
+        height: 40px;
+        right: 25px;
+        width: 40px;
+    }
+
+    .form-btn {
+        margin-left: 85%;
+    }
+
+    header #hero .center .middle h1 {
+        font-size: 40px;
+        margin-top: 35%;
+    }
+
+    #history .hist-container .hist-text {
+        margin-left: 15px;
+        width: 80%;
+    }
+
+    #history .hist-container .hist-text h2 {
+        font-size: 25px;
+    }
+
+    #history .hist-container .hist-text p {
+        font-size: 0.8rem;
+    }
+
+    #history .hist-container .hist-link {
+        margin-left: 45%;
+    }
+
+    #architecture .arch-container .arch-text {
+        margin-left: 15%;
+        width: 80%;
+    }
+
+    #architecture .arch-text p {
+        font-size: 1rem;
+        padding-bottom: 30px;
+    }
+
+    #architecture .arch-link p {
+        font-size: 0.9rem;
+    }
+
+    #interior .int-container {
+        height: auto;
+    }
+
+    #interior .int-container .int-text {
+        margin-left: 25px;
+        width: 75%;
+    }
+
+    #interior .int-container .int-text h2 {
+        font-size: 25px;
+    }
+
+    #interior .int-container .int-text h2 span {
+        font-size: 35px;
+    }
+
+    #interior .int-container .int-text p {
+        font-size: 16px;
+    }
+
+    #interior .int-container .int-link {
+        margin-left: 40%;
+    }
+
+    #interior .int-container .int-link p {
+        font-size: 14px;
+        padding-bottom: 30px;
+    }
+
+    #interior .int-container .int-link p span {
+        font-size: 22px;
+    }
+
+    #landscape .land-container {
+        height: 65vh;
+    }
+
+    #landscape .land-container .land-text {
+        margin-left: 40%;
+        width: 55%;
+    }
+
+    #landscape .land-text h2 {
+        font-size: 24px;
+    }
+
+    #landscape .land-text h2 span {
+        font-size: 32px;
+    }
+
+    #landscape .land-text p {
+        font-size: 14px;
+    }
+
+    #landscape .land-container .land-link {
+        margin-left: 38%;
+        margin-top: 10%;
+    }
+
+    #landscape .land-container .land-link p {
+        font-size: 14px;
+    }
+
+    #landscape .land-container .land-link p span {
+        font-size: 16px;
+    }
+
+    #testimonials {
+        height: auto;
+    }
+
+    #testimonials h2 {
+        font-size: 30px;
+        padding-top: 35px;
+    }
+
+    #testimonials .testimonials-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #testimonials .testimonials-container .testimonial-card {
+        height: auto;
+        margin: 2rem 0;
+        padding: 15px;
+        width: 100%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-picture {
+        width: 180px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text {
+        width: 42%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text h3 {
+        font-size: 12px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text p {
+        font-size: 14px;
+    }
+
+    #get-quote {
+        height: 50vh;
+    }
+
+    #get-quote h2 {
+        font-size: 50px;
+        padding-top: 60px;
+    }
+
+    #get-quote p {
+        font-size: 17px;
+        padding: 15px 0;
+    }
+
+    header .comp-hero {
+        height: 70vh;
+    }
+
+    header .comp-title h1 {
+        font-size: 60px;
+    }
+
+    #about-us .about-wrapper {
+        height: auto;
+        padding: 60px 0;
+    }
+
+    #about-us .about-wrapper h2 {
+        font-size: 35px;
+        margin-bottom: 25px;
+    }
+
+    #about-us .about-wrapper .about-container {
+        flex-direction: column;
+        padding: 0 20px;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown {
+        margin-bottom: 40px;
+        padding: 25px;
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown h2 {
+        font-size: 60px;
+        padding-left: 15px;
+        text-align: center;
+        border-left: none;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown p {
+        font-size: 15px;
+        margin-right: 0;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value {
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value h2 {
+        font-size: 40px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item {
+        margin-bottom: 25px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon {
+        max-width: 70px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon i {
+        font-size: 45px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text {
+        margin-left: 15px;
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text h3 {
+        font-size: 18px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text p {
+        font-size: 15px;
+        padding-right: 0;
+    }
+
+    .consultation-hero h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .eco-intro {
+        top: 62vh;
+    }
+
+    .apply-form-container .form-item select {
+        width: 90%;
+    }
+
+    footer .foot-container {
+        padding: 30px;
+    }
+
+    footer .copyright,
+    footer .foot-container .our-company {
+        font-size: 12px;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+}
+
+/* Medium screens (576px–767px) */
+@media only screen and (min-width: 576px) and (max-width: 767px) {
+    header nav img {
+        width: 120px;
+    }
+
+    .cta-btn {
+        font-size: 13px;
+        padding: 9px 18px;
+    }
+
+    #myBtn {
+        bottom: 18px;
+        font-size: 18px;
+        height: 45px;
+        right: 28px;
+        width: 45px;
+    }
+
+    header #hero .center .middle h1 {
+        font-size: 45px;
+        margin-top: 30%;
+    }
+
+    #history .hist-container .hist-text {
+        margin-left: 20px;
+        width: 70%;
+    }
+
+    #history .hist-container .hist-text h2 {
+        font-size: 28px;
+    }
+
+    #history .hist-container .hist-text p {
+        font-size: 0.8rem;
+    }
+
+    #history .hist-container .hist-link {
+        margin-left: 50%;
+    }
+
+    #architecture .arch-container .arch-text {
+        margin-left: 33%;
+        width: 65%;
+    }
+
+    #architecture .arch-text h2 {
+        font-size: 2.5rem;
+    }
+
+    #architecture .arch-text p {
+        font-size: 1.2rem;
+    }
+
+    #architecture .arch-link p {
+        font-size: 1.1rem;
+        padding-bottom: 30px;
+    }
+
+    #interior .int-container {
+        height: 75vh;
+    }
+
+    #interior .int-container .int-text {
+        margin-left: 30px;
+        width: 50%;
+    }
+
+    #interior .int-container .int-text h2 {
+        font-size: 28px;
+    }
+
+    #interior .int-container .int-text h2 span {
+        font-size: 38px;
+    }
+
+    #interior .int-container .int-text p {
+        font-size: 15px;
+    }
+
+    #interior .int-container .int-link {
+        margin-left: 43%;
+    }
+
+    #interior .int-container .int-link p {
+        font-size: 15px;
+    }
+
+    #interior .int-container .int-link p span {
+        font-size: 24px;
+    }
+
+    #landscape .land-container {
+        height: 70vh;
+    }
+
+    #landscape .land-container .land-text {
+        margin-left: 45%;
+        width: 50%;
+    }
+
+    #landscape .land-text h2 {
+        font-size: 28px;
+    }
+
+    #landscape .land-text h2 span {
+        font-size: 36px;
+    }
+
+    #landscape .land-text p {
+        font-size: 15px;
+    }
+
+    #landscape .land-container .land-link {
+        margin-left: 40%;
+        margin-top: 12%;
+    }
+
+    #landscape .land-container .land-link p {
+        font-size: 15px;
+    }
+
+    #landscape .land-container .land-link p span {
+        font-size: 18px;
+    }
+
+    #testimonials {
+        height: auto;
+    }
+
+    #testimonials h2 {
+        font-size: 32px;
+        padding-top: 40px;
+    }
+
+    #testimonials .testimonials-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #testimonials .testimonials-container .testimonial-card {
+        height: auto;
+        margin: 1.5rem;
+        padding: 18px;
+        width: 100%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-picture {
+        width: 200px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text {
+        width: 60%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text h3 {
+        font-size: 17px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text p {
+        font-size: 13px;
+    }
+
+    #get-quote {
+        height: 55vh;
+    }
+
+    #get-quote h2 {
+        font-size: 60px;
+        padding-top: 70px;
+    }
+
+    #get-quote p {
+        font-size: 18px;
+        padding: 15px 0;
+    }
+
+    #cookiePopup {
+        bottom: 10px;
+        left: 5%;
+        max-width: 90%;
+        padding: 15px;
+        right: 5%;
+    }
+
+    .cookie-content h2 {
+        font-size: 20px;
+    }
+
+    .cookie-btn,
+    .cookie-content p {
+        font-size: 13px;
+    }
+
+    .cookie-btn {
+        padding: 8px 15px;
+    }
+
+    .cookie-icon {
+        font-size: 40px;
+    }
+
+    .cookie-settings-content {
+        padding: 20px;
+        width: 95%;
+    }
+
+    .cookie-settings-content h2 {
+        font-size: 24px;
+    }
+
+    header .comp-hero {
+        height: 75vh;
+    }
+
+    header .comp-title h1 {
+        font-size: 80px;
+    }
+
+    #about-us .about-wrapper {
+        height: auto;
+        padding: 70px 0;
+    }
+
+    #about-us .about-wrapper h2 {
+        font-size: 40px;
+        margin-bottom: 30px;
+    }
+
+    #about-us .about-wrapper .about-container {
+        flex-direction: column;
+        padding: 0 25px;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown {
+        margin-bottom: 50px;
+        padding: 30px;
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown h2 {
+        font-size: 70px;
+        padding-left: 15px;
+        text-align: center;
+        border-left: none;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown p {
+        font-size: 16px;
+        margin-right: 0;
+        padding-top: 15px;
+        text-align: center;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value {
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value h2 {
+        font-size: 45px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item {
+        margin-bottom: 30px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon {
+        max-width: 80px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon i {
+        font-size: 50px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text {
+        margin-left: 15px;
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text h3 {
+        font-size: 20px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text p {
+        font-size: 16px;
+        padding-right: 0;
+    }
+
+    .consultation-hero {
+        height: 50vh;
+    }
+
+    .consultation-hero h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .consultation-benefits,
+    .consultation-contact,
+    .consultation-overview,
+    .consultation-services {
+        margin: 40px auto;
+        width: 95%;
+    }
+
+    .consultation-services-list {
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+
+    .consultation-service {
+        padding: 1.5rem;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+}
+
+/* Medium to large screens (768px–991px) */
+@media only screen and (min-width: 768px) and (max-width: 991px) {
+    header nav img {
+        width: 140px;
+    }
+
+    .cta-btn {
+        font-size: 14px;
+        padding: 10px 20px;
+    }
+
+    #myBtn {
+        bottom: 20px;
+        font-size: 20px;
+        height: 50px;
+        right: 30px;
+        width: 50px;
+    }
+
+    header #hero .center .middle h1 {
+        font-size: 50px;
+        margin-top: 25%;
+    }
+
+    #history .hist-container .hist-text {
+        margin-left: 30px;
+        width: 60%;
+    }
+
+    #history .hist-container .hist-text h2 {
+        font-size: 2rem;
+    }
+
+    #history .hist-container .hist-text p {
+        font-size: 1rem;
+    }
+
+    #history .hist-container .hist-link {
+        margin-left: 60%;
+    }
+
+    #architecture .arch-container .arch-text {
+        margin-left: 30%;
+        width: 70%;
+    }
+
+    #architecture .arch-text p {
+        font-size: 1.3rem;
+    }
+
+    #architecture .arch-link p {
+        font-size: 1.2rem;
+    }
+
+    #interior .int-container {
+        height: 85vh;
+    }
+
+    #interior .int-container .int-text {
+        margin-left: 35px;
+        width: 45%;
+    }
+
+    #interior .int-container .int-text h2 {
+        font-size: 30px;
+    }
+
+    #interior .int-container .int-text h2 span {
+        font-size: 40px;
+    }
+
+    #interior .int-container .int-text p {
+        font-size: 16px;
+    }
+
+    #interior .int-container .int-link {
+        margin-left: 55%;
+    }
+
+    #interior .int-container .int-link p {
+        font-size: 16px;
+    }
+
+    #interior .int-container .int-link p span {
+        font-size: 25px;
+    }
+
+    #landscape .land-container {
+        height: 75vh;
+    }
+
+    #landscape .land-container .land-text {
+        margin-left: 50%;
+        width: 45%;
+    }
+
+    #landscape .land-text h2 {
+        font-size: 30px;
+    }
+
+    #landscape .land-text h2 span {
+        font-size: 38px;
+    }
+
+    #landscape .land-text p {
+        font-size: 16px;
+    }
+
+    #landscape .land-container .land-link {
+        margin-left: 35%;
+        margin-top: 14%;
+    }
+
+    #landscape .land-container .land-link p {
+        font-size: 16px;
+    }
+
+    #landscape .land-container .land-link p span {
+        font-size: 20px;
+    }
+
+    #testimonials {
+        height: 90vh;
+    }
+
+    #testimonials h2 {
+        font-size: 35px;
+    }
+
+    #testimonials .testimonials-container {
+        align-items: center;
+        flex-direction: column;
+    }
+
+    #testimonials .testimonials-container .testimonial-card {
+        height: auto;
+        margin: 1.5rem 0;
+        padding: 16px;
+        width: 100%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-picture {
+        width: 220px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text h3 {
+        font-size: 18px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text p {
+        font-size: 14px;
+    }
+
+    #get-quote {
+        height: 60vh;
+    }
+
+    #get-quote h2 {
+        font-size: 70px;
+        padding-top: 80px;
+    }
+
+    #get-quote p {
+        font-size: 20px;
+        padding: 20px 0;
+    }
+
+    header .comp-hero {
+        height: 80vh;
+    }
+
+    header .comp-title h1 {
+        font-size: 100px;
+    }
+
+    #about-us .about-wrapper {
+        height: auto;
+        padding: 80px 0;
+    }
+
+    #about-us .about-wrapper h2 {
+        font-size: 45px;
+        margin-bottom: 35px;
+    }
+
+    #about-us .about-wrapper .about-container {
+        flex-direction: column;
+        padding: 0 30px;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown {
+        margin-bottom: 50px;
+        padding: 40px;
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown h2 {
+        font-size: 80px;
+        padding-left: 20px;
+        text-align: center;
+        border-left: none;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown p {
+        font-size: 18px;
+        margin-right: 0;
+        padding-top: 20px;
+        text-align: center;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value {
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value h2 {
+        font-size: 50px;
+        padding-left: 0;
+        text-align: center;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item {
+        margin-bottom: 30px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon {
+        max-width: 90px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon i {
+        font-size: 60px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text {
+        margin-left: 20px;
+        width: 100%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text h3 {
+        font-size: 22px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text p {
+        font-size: 18px;
+        padding-right: 0;
+    }
+
+    footer .foot-container {
+        padding: 15px;
+    }
+
+    footer .copyright,
+    footer .foot-container .our-company {
+        font-size: 14px;
+    }
+
+    #our-history .history-wrapper .timeline .timeline-item {
+        min-width: 90vw;
+    }
+
+    .project-item {
+        width: 100%;
+    }
+
+    .consultation-hero {
+        height: 50vh;
+    }
+
+    .consultation-hero h1 {
+        font-size: clamp(2rem, 5vw, 3rem);
+    }
+
+    .consultation-benefits,
+    .consultation-contact,
+    .consultation-overview,
+    .consultation-services {
+        margin: 40px auto;
+        width: 95%;
+    }
+
+    .consultation-services-list {
+        gap: 1.5rem;
+        grid-template-columns: 1fr;
+    }
+
+    .consultation-service {
+        padding: 1.5rem;
+    }
+
+    .careers-hero {
+        min-height: 300px;
+        padding: 80px 20px;
+    }
+
+    .careers-title h1 {
+        font-size: 2rem;
+    }
+
+    .careers-title p {
+        font-size: 1rem;
+    }
+
+    .intro-visuals {
+        grid-template-columns: 1fr;
+    }
+
+    .intro-stats {
+        align-items: center;
+    }
+
+    .stat-item {
+        text-align: center;
+    }
+
+    .job-filter select {
+        width: 100%;
+    }
+
+    .testimonials-container {
+        grid-template-columns: 1fr;
+    }
+
+    .eco-contact,
+    .eco-partnerships {
+        margin: 40px auto;
+        padding: 20px 0;
+        width: 95%;
+    }
+
+    .eco-contact h2,
+    .eco-partnerships h2 {
+        font-size: clamp(1.75rem, 4vw, 2.5rem);
+    }
+
+    .eco-contact p,
+    .eco-partnerships p {
+        font-size: clamp(0.9rem, 1.8vw, 1rem);
+    }
+
+    #residential-hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .residential-content h2 {
+        font-size: 2rem;
+    }
+
+    .residential-content p {
+        font-size: 1rem;
+    }
+
+    .policy-hero {
+        min-height: 300px;
+        padding: 80px 20px;
+    }
+
+    .policy-content h2 {
+        font-size: 2rem;
+    }
+
+    .cookie-types,
+    .data-types,
+    .rights-list {
+        grid-template-columns: 1fr;
+    }
+}
+
+/* Large screens (992px–1199px) */
+@media only screen and (min-width: 992px) and (max-width: 1199px) {
+    header nav img {
+        width: 160px;
+    }
+
+    header nav .navlinks ul {
+        margin-top: 40px;
+    }
+
+    .cta-btn {
+        font-size: 15px;
+        padding: 12px 22px;
+    }
+
+    #myBtn {
+        bottom: 25px;
+        font-size: 22px;
+        height: 55px;
+        right: 35px;
+        width: 55px;
+    }
+
+    header #hero .center .middle h1 {
+        font-size: 60px;
+        margin-top: 20%;
+    }
+
+    #history .hist-container .hist-text {
+        margin-left: 40px;
+        width: 60%;
+    }
+
+    #history .hist-container .hist-text h2 {
+        font-size: 2.3rem;
+    }
+
+    #history .hist-container .hist-text p {
+        font-size: 1.2rem;
+    }
+
+    #history .hist-container .hist-link {
+        margin-left: 68%;
+    }
+
+    #architecture .arch-container .arch-text {
+        margin-left: 38%;
+        width: 60%;
+    }
+
+    #architecture .arch-text h2 {
+        font-size: 2rem;
+    }
+
+    #architecture .arch-text p {
+        font-size: 1.4rem;
+    }
+
+    #architecture .arch-link p {
+        font-size: 1.3rem;
+    }
+
+    #interior .int-container {
+        height: 90vh;
+    }
+
+    #interior .int-container .int-text {
+        margin-left: 40px;
+        width: 40%;
+    }
+
+    #interior .int-container .int-text h2 {
+        font-size: 35px;
+    }
+
+    #interior .int-container .int-text h2 span {
+        font-size: 45px;
+    }
+
+    #interior .int-container .int-text p {
+        font-size: 18px;
+    }
+
+    #interior .int-container .int-link {
+        margin-left: 62%;
+    }
+
+    #interior .int-container .int-link p {
+        font-size: 18px;
+    }
+
+    #interior .int-container .int-link p span {
+        font-size: 28px;
+    }
+
+    #landscape .land-container {
+        height: 80vh;
+    }
+
+    #landscape .land-container .land-text {
+        margin-left: 53%;
+        width: 40%;
+    }
+
+    #landscape .land-text h2 {
+        font-size: 34px;
+    }
+
+    #landscape .land-text h2 span {
+        font-size: 42px;
+    }
+
+    #landscape .land-text p {
+        font-size: 17px;
+    }
+
+    #landscape .land-container .land-link {
+        margin-top: 15%;
+    }
+
+    #landscape .land-container .land-link p {
+        font-size: 18px;
+    }
+
+    #landscape .land-container .land-link p span {
+        font-size: 22px;
+    }
+
+    #testimonials {
+        height: 90vh;
+    }
+
+    #testimonials h2 {
+        font-size: 38px;
+    }
+
+    #testimonials .testimonials-container {
+        flex-direction: column;
+        justify-content: space-between;
+        width: 100%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card {
+        height: auto;
+        margin: 1.5rem 0;
+        padding: 18px;
+        width: 70%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-picture {
+        width: 240px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text h3 {
+        font-size: 18px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text p {
+        font-size: 15px;
+    }
+
+    #get-quote {
+        height: 65vh;
+    }
+
+    #get-quote h2 {
+        font-size: 80px;
+        padding-top: 90px;
+    }
+
+    #get-quote p {
+        font-size: 22px;
+        padding: 25px 0;
+    }
+
+    header .comp-hero {
+        height: 85vh;
+    }
+
+    header .comp-title h1 {
+        font-size: 120px;
+    }
+
+    #about-us .about-wrapper {
+        height: 85vh;
+        padding: 90px 0;
+    }
+
+    #about-us .about-wrapper h2 {
+        font-size: 50px;
+        margin-bottom: 40px;
+    }
+
+    #about-us .about-wrapper .about-container {
+        padding: 0 40px;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown {
+        margin-bottom: 60px;
+        padding: 40px;
+        width: 60%;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown h2 {
+        font-size: 90px;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown p {
+        font-size: 18px;
+        margin-right: 30px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value {
+        width: 40%;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value h2 {
+        font-size: 55px;
+        padding-left: 20px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon {
+        max-width: 90px;
+    }
+
+    #about-us Xie .about-wrapper .about-container .mission-vision-value .mvv-item .icon i {
+        font-size: 70px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text h3 {
+        font-size: 23px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text p {
+        font-size: 18px;
+        padding-right: 50px;
+    }
+
+    .project-item {
+        width: calc(50% - 20px);
+    }
+}
+
+/* Large screens (1200px–1600px) */
+@media only screen and (min-width: 1200px) and (max-width: 1600px) {
+    header nav {
+        padding: 20px 40px;
+    }
+
+    header nav img {
+        width: 140px;
+    }
+
+    header nav .navlinks ul li {
+        font-size: 16px;
+        margin: 0 20px;
+    }
+
+    header nav .navlinks ul .mainmenu:nth-child(5) {
+        margin-right: 200px;
+    }
+
+    .cta-btn {
+        font-size: 18px;
+        padding: 12px 28px;
+    }
+
+    #myBtn {
+        bottom: 35px;
+        font-size: 26px;
+        height: 65px;
+        right: 45px;
+        width: 65px;
+    }
+
+    .form-btn {
+        margin-left: 90%;
+        width: 120px;
+        height: 120px;
+    }
+
+    .form-btn:hover {
+        width: 220px;
+        font-size: 22px;
+    }
+
+    header #hero .center .middle h1 {
+        font-size: 70px;
+        margin-top: 15%;
+    }
+
+    #history .hist-container .hist-text {
+        margin-left: 60px;
+        width: 45%;
+    }
+
+    #history .hist-container .hist-text h2 {
+        font-size: 2.5rem;
+    }
+
+    #history .hist-container .hist-text p {
+        font-size: 1.3rem;
+    }
+
+    #history .hist-container .hist-link {
+        margin-left: 72%;
+    }
+
+    #architecture .arch-container .arch-text {
+        margin-left: 50%;
+        width: 45%;
+    }
+
+    #architecture .arch-text h2 {
+        font-size: 2.2rem;
+    }
+
+    #architecture .arch-text p {
+        font-size: 1.5rem;
+    }
+
+    #architecture .arch-link p {
+        font-size: 1.4rem;
+        padding-bottom: 30px;
+    }
+
+    #interior .int-container {
+        height: 85vh;
+    }
+
+    #interior .int-container .int-text {
+        margin-left: 50px;
+        width: 40%;
+    }
+
+    #interior .int-container .int-text h2 {
+        font-size: 40px;
+    }
+
+    #interior .int-container .int-text h2 span {
+        font-size: 50px;
+    }
+
+    #interior .int-container .int-text p {
+        font-size: 20px;
+    }
+
+    #interior .int-container .int-link {
+        margin-left: 70%;
+    }
+
+    #interior .int-container .int-link p {
+        font-size: 20px;
+    }
+
+    #interior .int-container .int-link p span {
+        font-size: 28px;
+    }
+
+    #landscape .land-container {
+        height: 85vh;
+    }
+
+    #landscape .land-container .land-text {
+        margin-left: 58%;
+        width: 35%;
+    }
+
+    #landscape .land-text h2 {
+        font-size: 36px;
+    }
+
+    #landscape .land-text h2 span {
+        font-size: 44px;
+    }
+
+    #landscape .land-text p {
+        font-size: 18px;
+    }
+
+    #landscape .land-container .land-link {
+        margin-left: 60%;
+        margin-top: 16%;
+    }
+
+    #landscape .land-container .land-link p {
+        font-size: 20px;
+    }
+
+    #landscape .land-container .land-link p span {
+        font-size: 24px;
+    }
+
+    #testimonials {
+        height: 70vh;
+    }
+
+    #testimonials h2 {
+        font-size: 42px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card {
+        height: auto;
+        margin: 0 1.5rem;
+        padding: 25px;
+        width: 45%;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-picture {
+        width: 270px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text h3 {
+        font-size: 22px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card .test-text p {
+        font-size: 16px;
+    }
+
+    #get-quote {
+        height: 70vh;
+    }
+
+    #get-quote h2 {
+        font-size: 100px;
+        padding-top: 100px;
+    }
+
+    #get-quote p {
+        font-size: 25px;
+        padding: 30px 0;
+    }
+
+    header .comp-hero {
+        height: 90vh;
+    }
+
+    header .comp-title h1 {
+        font-size: 150px;
+    }
+
+    #about-us .about-wrapper h2 {
+        font-size: 55px;
+    }
+
+    #about-us .about-wrapper .about-container .about-brown h2 {
+        font-size: 100px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value h2 {
+        font-size: 60px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .icon i {
+        font-size: 80px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text h3 {
+        font-size: 25px;
+    }
+
+    #about-us .about-wrapper .about-container .mission-vision-value .mvv-item .mvv-text p {
+        font-size: 20px;
+    }
+
+    .eco-intro {
+        top: 68vh;
+        padding: 60px 40px;
+    }
+
+    .eco-goals h2 {
+        font-size: 70px;
+    }
+
+    .goal-item,
+    .initiative-item {
+        width: 28%;
+    }
+
+    .apply-form-container {
+        width: 60%;
+    }
+
+    .apply-form-container .form-item input,
+    .apply-form-container .form-item select,
+    .apply-form-container .form-item textarea {
+        width: 85%;
+    }
+
+    .project-item {
+        width: calc(33.33% - 20px);
+    }
+}
+
+/* Ultra-wide screens (above 1600px, e.g., 4K monitors) */
+@media only screen and (min-width: 1601px) {
+    header nav {
+        padding: 25px 50px;
+    }
+
+    header nav img {
+        width: 160px;
+    }
+
+    header nav .navlinks ul li {
+        font-size: 18px;
+        margin: 0 25px;
+    }
+
+    header nav .navlinks ul .mainmenu:nth-child(5) {
+        margin-right: 250px;
+    }
+
+    .cta-btn {
+        font-size: 20px;
+        padding: 14px 30px;
+    }
+
+    #myBtn {
+        bottom: 40px;
+        font-size: 28px;
+        height: 70px;
+        right: 50px;
+        width: 70px;
+    }
+
+    .form-btn {
+        margin-left: 92%;
+        width: 140px;
+        height: 140px;
+    }
+
+    .form-btn:hover {
+        width: 240px;
+        font-size: 24px;
+    }
+
+    header #hero .center .middle h1 {
+        font-size: 80px;
+        margin-top: 12%;
+    }
+
+    #history .hist-container .hist-text {
+        margin-left: 80px;
+        width: 40%;
+    }
+
+    #history .hist-container .hist-text h2 {
+        font-size: 40px;
+    }
+
+    #history .hist-container .hist-text p {
+        font-size: 20px;
+    }
+
+    #history .hist-container .hist-link {
+        margin-left: 75%;
+        margin-top: 12%;
+    }
+
+    #architecture .arch-container .arch-text {
+        margin-left: 55%;
+        width: 40%;
+    }
+
+    #architecture .arch-text h2 {
+        font-size: 40px;
+    }
+
+    #architecture .arch-text p {
+        font-size: 20px;
+    }
+
+    #interior .int-container {
+        height: 85vh;
+    }
+
+    #interior .int-container .int-text {
+        margin-left: 60px;
+        width: 35%;
+    }
+
+    #interior .int-container .int-link {
+        margin-left: 72%;
+    }
+
+    #landscape .land-container {
+        height: 85vh;
+    }
+
+    #landscape .land-container .land-text {
+        margin-left: 60%;
+        width: 30%;
+    }
+
+    #landscape .land-container .land-link {
+        margin-left: 62%;
+    }
+
+    #testimonials {
+        height: 80vh;
+    }
+
+    #testimonials h2 {
+        font-size: 42px;
+    }
+
+    #testimonials .testimonials-container .testimonial-card {
+        width: 40%;
+    }
+
+    #get-quote {
+        height: 70vh;
+    }
+
+    #get-quote h2 {
+        font-size: 120px;
+        padding-top: 120px;
+    }
+
+    #get-quote p {
+        font-size: 30px;
+    }
+
+    .consultation-hero h1 {
+        font-size: clamp(3rem, 7vw, 4.5rem);
+    }
+
+    .careers-hero h1 {
+        font-size: 120px;
+        margin-top: 8%;
+    }
+
+    .eco-hero h1 {
+        font-size: 120px;
+        padding-top: 4%;
+    }
+
+    .eco-intro {
+        top: 70vh;
+        padding: 70px 50px;
+    }
+
+    .eco-goals h2 {
+        font-size: 80px;
+        padding: 150px 0 30px;
+    }
+
+    .goal-item,
+    .initiative-item {
+        width: 25%;
+    }
+
+    .portfolio-item,
+    .service-item,
+    .benefit-item,
+    .value-item {
+        width: 20%;
+    }
+
+    .apply-form-container {
+        width: 55%;
+    }
+
+    .terms-title h1 {
+        font-size: 140px;
+    }
+
+    .faq-title h1 {
+        font-size: 140px;
+    }
+
+    .hero-content h1 {
+        font-size: 140px;
+    }
+}
+
+/* Footer-specific breakpoints */
+@media only screen and (max-width: 1024px) {
+    footer .foot-container {
+        align-items: flex-start;
+        flex-direction: column;
+    }
+
+    footer .foot-container .contact-info,
+    footer .foot-container .our-company,
+    footer .foot-container .quick-links,
+    footer .foot-container .socials {
+        margin-bottom: 20px;
+        width: 100%;
+    }
+}
+
+/* Navigation-specific breakpoint */
+@media only screen and (max-width: 992px) {
+    header nav .navlinks {
+        background-color: rgba(0, 0, 0, 0.9);
+        height: 100%;
+        position: fixed;
+        right: 0;
+        top: 0;
+        transform: translateX(100%);
+        transition: transform 0.3s ease;
+        width: 300px;
+        z-index: 9999;
+    }
+
+    header nav .navlinks.active {
+        transform: translateX(0);
+    }
+
+    header nav .navlinks ul {
+        flex-direction: column;
+        margin-top: 60px;
+        text-align: left;
+    }
+
+    header nav .navlinks ul .mainmenu {
+        font-size: 18px;
+        margin: 20px 0;
+    }
+
+    header nav .navlinks ul .mainmenu:hover {
+        transform: none;
+    }
+
+    header nav .menu-toggle {
+        cursor: pointer;
+        display: flex !important;
+        flex-direction: column;
+        height: 25px;
+        justify-content: space-between;
+        position: absolute;
+        right: 20px;
+        top: 50px;
+        width: 30px;
+        z-index: 10000;
+    }
+
+    .menu-toggle .bar {
+        background-color: var(--white);
+        height: 4px;
+        transition: all 0.4s ease;
+        width: 100%;
+    }
+
+    .menu-toggle.active .bar:first-child {
+        transform: rotate(45deg) translate(5px, 5px);
+    }
+
+    .menu-toggle.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .menu-toggle.active .bar:nth-child(3) {
+        transform: rotate(-45deg) translate(10px, -10px);
+    }
+
+    header nav .navlinks ul li .dropdown-menu {
+        background-color: hsla(0, 0%, 100%, 0.1);
+        display: none;
+        padding-left: 20px;
+        position: static;
+        width: 100%;
+    }
+
+    header nav .navlinks ul li:hover .dropdown-menu {
+        display: block;
+    }
+}
+
+/* Project-specific breakpoints */
+@media only screen and (max-width: 1400px) {
+    .project-item {
+        width: calc(33.33% - 20px);
+    }
+}
+
+@media only screen and (max-width: 1024px) {
+    .project-item {
+        width: calc(50% - 20px);
+    }
+}
+
+/* Timeline-specific breakpoint */
+@media only screen and (max-width: 768px) {
+    #our-history .history-wrapper .timeline .timeline-item {
+        min-width: 90vw;
+    }
+
+    .scroll-icons {
+        top: 250px;
+    }
+}
