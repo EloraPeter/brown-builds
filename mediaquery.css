@@ -1888,7 +1888,7 @@
     }
 }
 
-/* Large screens (992px–1199px) */
+/* Large screens (992px–1199px)
 @media only screen and (min-width: 992px) and (max-width: 1199px) {
     header nav img {
         width: 160px;
@@ -2131,7 +2131,7 @@
     }
 }
 
-/* Large screens (1200px–1600px) */
+Large screens (1200px–1600px)
 @media only screen and (min-width: 1200px) and (max-width: 1600px) {
     header nav {
         padding: 20px 40px;
@@ -2383,7 +2383,7 @@
     }
 }
 
-/* Ultra-wide screens (above 1600px, e.g., 4K monitors) */
+ Ultra-wide screens (above 1600px, e.g., 4K monitors)
 @media only screen and (min-width: 1601px) {
     header nav {
         padding: 25px 50px;
@@ -2564,7 +2564,7 @@
     .hero-content h1 {
         font-size: 140px;
     }
-}
+/* }  */
 
 /* Footer-specific breakpoints */
 @media only screen and (max-width: 1024px) {
